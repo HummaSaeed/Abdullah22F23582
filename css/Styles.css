@@ -1,0 +1,182 @@
+body {
+  padding: 10px;
+  font-family: Nunito;
+}
+.navbar {
+  background-color: white !important;
+  display: flex;
+  justify-content: space-evenly;
+}
+.subnavbar {
+  padding: 0.8rem 6rem 0.8rem 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f8fbff;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.subnavbar > p {
+  font-family: Nunito;
+  font-size: 18px;
+  font-weight: 600;
+}
+.subnavbar > p:hover {
+  color: #ee2b53;
+}
+#navbarNav {
+  display: flex;
+  justify-content: space-evenly;
+}
+.card_container {
+  display: flex;
+  flex-direction: row;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px 5px rgba(0, 0, 0, 0.2);
+  border: 1px solid #9f9f9f;
+  border-radius: 25px;
+  margin: 20px 20px;
+  padding: 20px 20px;
+}
+.sub_container {
+  margin-left: 47px;
+  margin-top: 20px;
+  margin-right: 40px;
+}
+.sub_container > h3 {
+  font-size: 45px;
+  font-weight: 700;
+  font-family: Nunito;
+}
+.sub_container > p {
+  font-family: Nunito;
+  font-size: 24px;
+  line-height: 33px;
+  font-weight: 400;
+}
+.heading {
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+  color: #ee2b53;
+  font-family: Nunito;
+  font-weight: 700 !important;
+}
+.card-body > h4 {
+  font-size: 26px;
+  color: #40358a;
+  font-family: Nunito;
+  font-weight: 700;
+}
+.card {
+  border-radius: 10px;
+}
+.card-text {
+  margin: 10px;
+  color: #7f7f7f;
+}
+h5 {
+  font-size: 20px;
+  font-family: Nunito;
+  font-weight: 700;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+}
+.align-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card_heading {
+  display: flex;
+  justify-content: center;
+  font-size: 26px;
+  color: #ee2b53;
+  font-family: Nunito;
+  font-weight: 700 !important;
+}
+.nav-link {
+  color: #ee2b53 !important;
+  font-family: Nunito;
+  font-weight: 700 !important;
+  font-size: 24px !important;
+  justify-content: space-evenly;
+}
+.btn-rq {
+  display: flex;
+  justify-content: flex-end;
+  float: right;
+}
+.btn-signin {
+  background-color: #ee2b53;
+  color: white;
+  border: 0px;
+  border-radius: 10px;
+  padding: 5px 10px;
+  font-size: 30px;
+  font-family: Nunito;
+}
+.responsive {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+.responsive{
+  width: 100%;
+  max-width: 100%;
+}
+@media (max-width:770px) {
+  .responsive{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
+  .nav-item{
+    display: none;
+  }
+  .btnsigin{
+    display: none;
+  }
+ .subnavbar{
+   display: flex;
+   flex-direction: column;
+ }
+ .card_container{
+   display: flex;
+   flex-direction: column;
+ }
+ .sub_container > h3{
+  font-size: 30px;
+  font-weight: 700;
+  font-family: Nunito;
+ }
+ .sub_container > p{
+  font-size: 20px;
+  font-weight: 400;
+  font-family: Nunito;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-height: 4.0em;
+ }
+ .btn-signin {
+  background-color: #ee2b53;
+  color: white;
+  border: 0px;
+  border-radius: 10px;
+  padding: 5px 10px;
+  font-size: 18px;
+  font-family: Nunito;
+  margin-bottom: 10px;
+  align-self: center;
+}
+.heading {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  color: #ee2b53;
+  font-family: Nunito;
+  font-weight: 700 !important;
+}
+
+}
